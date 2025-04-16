@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --dark-background: #1F2937;
+    --main-text: #F9FAF8;
+    --secondary-text: #E5E7EB;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-background);
+    align-items: center;
+}
+
+header {
+    padding: 1rem 0;
+    width: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+    color: var(--main-text);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+header a {
+    color: var(--secondary-text);
+    font-size: 18px;
+}
+
+header a,
+header a:visited {
+    text-decoration: none;
+}
