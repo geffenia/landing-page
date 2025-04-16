@@ -8,6 +8,7 @@
     --dark-background: #1F2937;
     --main-text: #F9FAF8;
     --secondary-text: #E5E7EB;
+    --light-blue: #3882F6;
 }
 
 body {
@@ -52,4 +53,45 @@ header a {
 header a,
 header a:visited {
     text-decoration: none;
+}
+
+.hero {
+    width: 60rem;
+    display: flex;
+    padding: 5rem 0 6rem;
+    gap: 4rem;
+}
+
+.hero img {
+    display: block;
+    width: 500px;
+    height: auto;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: var(--main-text);
+    font-weight: 900;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero p {
+    font-size: 18px;
+    color: var(--secondary-text);
+    line-height: 1.5rem;
+}
+
+.hero button {
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    background-color: var(--light-blue);
+    color: var(--main-text);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
 }
