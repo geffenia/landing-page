@@ -175,3 +175,37 @@ header a:visited {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.fourth .container {
+    width: 60rem;
+    background-color: var(--light-blue);
+    padding: 3rem 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.fourth h3 {
+    color: var(--main-text);
+}
+
+.fourth p {
+    color: var(--secondary-text);
+}
+
+.container button {
+    background-color: var(--light-blue);
+    color: var(--main-text);
+    border: 2px solid var(--main-text);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
