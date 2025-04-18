@@ -209,3 +209,13 @@ header a:visited {
     border-radius: 0.5rem;
     font-weight: bold;
 }
+
+footer {
+    background-color: var(--dark-background);
+    color: var(--main-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    font-weight: lighter;
+}
