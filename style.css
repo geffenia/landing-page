@@ -95,3 +95,52 @@ header a:visited {
     border: none;
     border-radius: 10px;
 }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 6rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 50rem;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-background);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    width: 150px;
+}
+
+.card p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.9rem;
+}
+
+.card img {
+    border: 3px solid var(--light-blue);
+    border-radius: 10%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
